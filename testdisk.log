@@ -1,0 +1,64 @@
+
+
+Wed Feb 28 13:50:14 2018
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.13.0-36-generic (#40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018) x86_64
+Compiler: GCC 5.3
+ext2fs lib: 1.42.13, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       500118192 sectors
+/dev/sda: user_max   500118192 sectors
+/dev/sda: native_max 500118192 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       1953525168 sectors
+/dev/sdb: user_max   1953525168 sectors
+/dev/sdb: native_max 1953525168 sectors
+/dev/sdc: LBA, HPA, LBA48, DCO support
+/dev/sdc: size       3907029168 sectors
+/dev/sdc: user_max   3907029168 sectors
+/dev/sdc: native_max 3907029168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+/dev/sr0 is not an ATA disk
+Hard disk list
+Disk /dev/sda - 256 GB / 238 GiB - CHS 31130 255 63, sector size=512 - INTENSO, S/N:EB98074B1CF000042580, FW:S8FM08.0
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - ST31000524AS, S/N:9VPDRL67, FW:JC45
+Disk /dev/sdc - 2000 GB / 1863 GiB - CHS 243201 255 63, sector size=512 - TOSHIBA DT01ACA200, S/N:Z4NMD4DAS, FW:MX4OABB0
+Disk /dev/sdi - 32 GB / 30 GiB - CHS 30960 64 32, sector size=512 - JetFlash Transcend 32GB, FW:1100
+Disk /dev/sdj - 7897 MB / 7532 MiB - CHS 1023 243 62, sector size=512 - JetFlash Transcend 8GB, FW:1100
+Disk /dev/sr0 - 683 MB / 651 MiB - 333616 sectors (RO), sector size=2048 - ATAPI   DVD A  DH16ABSH, S/N:KU0160F0111220575CF3, FW:YA12
+
+Partition table type (auto): Intel
+Disk /dev/sdc - 2000 GB / 1863 GiB - TOSHIBA DT01ACA200
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/32/33
+NTFS at 127482/59/2
+ 1 P HPFS - NTFS              0  32 33 127482  59  1 2048000000
+     NTFS, blocksize=4096, 1048 GB / 976 GiB
+ 2 P HPFS - NTFS          127482  59  2 182710 234 52  887248896
+     NTFS, blocksize=4096, 454 GB / 423 GiB
+ 3 E extended             182711  12 20 243201  78 13  971776002
+ 5 L Linux                182711  12 22 241637  25 52  946647040
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 484 GB / 451 GiB
+   X extended             241637  25 53 243201  78 13   25128960
+ 6 L Linux Swap           241637  58 22 243201  78 13   25126912
+     SWAP2 version 1, pagesize=4096, 12 GB / 11 GiB
+
+Analyse Disk /dev/sdc - 2000 GB / 1863 GiB - CHS 243201 255 63
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/32/33
+NTFS at 127482/59/2
+Current partition structure:
+ 1 P HPFS - NTFS              0  32 33 127482  59  1 2048000000
+ 2 P HPFS - NTFS          127482  59  2 182710 234 52  887248896
+ 3 E extended             182711  12 20 243201  78 13  971776002
+No partition is bootable
+ 5 L Linux                182711  12 22 241637  25 52  946647040
+   X extended             241637  25 53 243201  78 13   25128960
+ 6 L Linux Swap           241637  58 22 243201  78 13   25126912
